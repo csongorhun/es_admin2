@@ -5,11 +5,11 @@ description 'Admin tool for ES'
 client_script 'client.lua'
 server_script 'server.lua'
 
-ui_page 'ui/index.html'
+ui_page 'index.html'
 
 files {
-	'ui/index.html',
-	'ui/style.css'
+	'index.html',
+	'style.css'
 }
 
 dependency 'essentialmode'
